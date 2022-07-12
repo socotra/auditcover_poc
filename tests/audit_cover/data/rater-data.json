@@ -1,0 +1,782 @@
+{
+  "operation": "new_business",
+  "policy": {
+    "characteristics": [
+      {
+        "createdTimestamp": "1655681341011",
+        "endTimestamp": "1687190400000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "biProposedRenewalRate": ["0.0354839410491837"],
+          "broker_name": ["Hoskin"],
+          "brokerage_commission": ["11"],
+          "channel": ["Broker"],
+          "office_ext": ["Singapore"],
+          "pdProposedRenewalRate": ["0.0634245386812466"]
+        },
+        "locator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+        "mediaByLocator": {},
+        "policyEndTimestamp": "1687190400000",
+        "policyLocator": "100000500",
+        "policyStartTimestamp": "1655654400000",
+        "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+        "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+        "startTimestamp": "1655654400000",
+        "taxGroups": [{ "amount": "0.00", "name": "sales" }],
+        "updatedTimestamp": "1655682965002"
+      }
+    ],
+    "configVersion": "67",
+    "createdTimestamp": "1655681341011",
+    "currency": "SGD",
+    "displayId": "100000500",
+    "documents": [],
+    "effectiveContractEndTimestamp": "1687190400000",
+    "exposures": [
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1655681379705",
+            "endTimestamp": "1687190400000",
+            "exposureLocator": "b5824d75-7e94-4705-9ce6-172e54916654",
+            "fieldGroupsByLocator": { "22205333-8c4a-46a0-8302-0be723ab839e": { "bi_indemnity_period_ext": ["15"], "bi_split_id_ext": ["Individual"] } },
+            "fieldValues": {
+              "address": ["Random address"],
+              "anzsic_code_ext": ["217325"],
+              "anzsic_desc_ext": ["Seafood, Preserved, Manufacturing"],
+              "construction_class_ext": ["Fire Resistance"],
+              "country": ["Singapore"],
+              "interruption": ["22205333-8c4a-46a0-8302-0be723ab839e"],
+              "locationNumber": ["1"],
+              "name_ext": ["Singapore"],
+              "protection_class_ext": ["Modern, fully equiped < 10 km"],
+              "stories": ["16"],
+              "survey_reported_ext": ["No"],
+              "yearBuilt": ["2004"]
+            },
+            "locator": "eed69f8e-bc84-4bef-a74c-9dfa72838fd6",
+            "mediaByLocator": {},
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "startTimestamp": "1655654400000",
+            "updatedTimestamp": "1655683474349"
+          }
+        ],
+        "createdTimestamp": "1655681379705",
+        "displayId": "100000524",
+        "locator": "b5824d75-7e94-4705-9ce6-172e54916654",
+        "name": "location",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655681379705",
+                "exposureCharacteristicsLocator": "eed69f8e-bc84-4bef-a74c-9dfa72838fd6",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "biSplit_ext": ["Individual"], "sumInsured_ext": ["38000000"], "type_ext": ["Business Interruption"] },
+                "locator": "50ed5090-11ae-4836-bc8e-5a0323171b65",
+                "mediaByLocator": {},
+                "perilLocator": "938a79da-8844-4383-82fc-1cbc8d4478ad",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655681863283"
+              }
+            ],
+            "createdTimestamp": "1655681379705",
+            "displayId": "100000528",
+            "exposureLocator": "b5824d75-7e94-4705-9ce6-172e54916654",
+            "locator": "938a79da-8844-4383-82fc-1cbc8d4478ad",
+            "name": "grossRevenue",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "938a79da-8844-4383-82fc-1cbc8d4478ad",
+            "updatedTimestamp": "1655681863283"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655681379705",
+                "exposureCharacteristicsLocator": "eed69f8e-bc84-4bef-a74c-9dfa72838fd6",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["14000000"], "type_ext": ["Property Damage"] },
+                "locator": "a7f70740-fdae-447b-887b-2300398510fb",
+                "mediaByLocator": {},
+                "perilLocator": "2e69c83a-8922-4217-9f5c-7cfd3ea4f8d9",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655681899485"
+              }
+            ],
+            "createdTimestamp": "1655681379705",
+            "displayId": "100000530",
+            "exposureLocator": "b5824d75-7e94-4705-9ce6-172e54916654",
+            "locator": "2e69c83a-8922-4217-9f5c-7cfd3ea4f8d9",
+            "name": "buildings",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "2e69c83a-8922-4217-9f5c-7cfd3ea4f8d9",
+            "updatedTimestamp": "1655681899485"
+          }
+        ],
+        "policyLocator": "100000500",
+        "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+        "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+        "updatedTimestamp": "1655683474349"
+      },
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1655709219153",
+            "endTimestamp": "1687190400000",
+            "exposureLocator": "dc8b9f9f-cc64-483b-95a9-cafe99164806",
+            "fieldGroupsByLocator": { "0aa5cd06-0c8c-4028-9f8f-3e7d8b0f57f6": { "bi_indemnity_period_ext": ["8"], "bi_split_id_ext": ["Individual"] } },
+            "fieldValues": {
+              "address": ["Random"],
+              "anzsic_code_ext": ["224951"],
+              "anzsic_desc_ext": ["Clothing, Fur, Manufacturing"],
+              "construction_class_ext": ["Semi Fire Resistance"],
+              "country": ["Singapore"],
+              "interruption": ["0aa5cd06-0c8c-4028-9f8f-3e7d8b0f57f6"],
+              "locationNumber": ["2"],
+              "name_ext": ["Singapore"],
+              "protection_class_ext": ["Modern, fully equipped > 10 km"],
+              "stories": ["9"],
+              "survey_reported_ext": ["No"],
+              "yearBuilt": ["2034"]
+            },
+            "locator": "1c9fe29e-5b31-4964-8501-581004cac403",
+            "mediaByLocator": {},
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "startTimestamp": "1655654400000",
+            "updatedTimestamp": "1655709378744"
+          }
+        ],
+        "createdTimestamp": "1655709219153",
+        "displayId": "100000614",
+        "locator": "dc8b9f9f-cc64-483b-95a9-cafe99164806",
+        "name": "location",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655709219153",
+                "exposureCharacteristicsLocator": "1c9fe29e-5b31-4964-8501-581004cac403",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["20000000"], "type_ext": ["Business Interruption"] },
+                "locator": "fafdc3d1-9e38-4535-95f9-e64033404da5",
+                "mediaByLocator": {},
+                "perilLocator": "a8760402-f30e-4fa6-ab95-e68d320a4d80",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655709358423"
+              }
+            ],
+            "createdTimestamp": "1655709219153",
+            "displayId": "100000618",
+            "exposureLocator": "dc8b9f9f-cc64-483b-95a9-cafe99164806",
+            "locator": "a8760402-f30e-4fa6-ab95-e68d320a4d80",
+            "name": "grossRevenue",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "a8760402-f30e-4fa6-ab95-e68d320a4d80",
+            "updatedTimestamp": "1655709358423"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655709219153",
+                "exposureCharacteristicsLocator": "1c9fe29e-5b31-4964-8501-581004cac403",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["14000000"], "type_ext": ["Property Damage"] },
+                "locator": "1c41b1a8-b211-4dcc-8970-f788ed0d6994",
+                "mediaByLocator": {},
+                "perilLocator": "06dd097f-3645-4822-9580-2052777717e4",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655709358423"
+              }
+            ],
+            "createdTimestamp": "1655709219153",
+            "displayId": "100000620",
+            "exposureLocator": "dc8b9f9f-cc64-483b-95a9-cafe99164806",
+            "locator": "06dd097f-3645-4822-9580-2052777717e4",
+            "name": "buildings",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "06dd097f-3645-4822-9580-2052777717e4",
+            "updatedTimestamp": "1655709358423"
+          }
+        ],
+        "policyLocator": "100000500",
+        "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+        "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+        "updatedTimestamp": "1655709378744"
+      },
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1655709403671",
+            "endTimestamp": "1687190400000",
+            "exposureLocator": "1fa7d7d3-0702-4813-9c6e-dd4df277a7da",
+            "fieldGroupsByLocator": { "66a30b6c-ec99-47af-9dac-74ad5d9e72f3": { "bi_indemnity_period_ext": ["20"], "bi_split_id_ext": ["Individual"] } },
+            "fieldValues": {
+              "anzsic_code_ext": ["217325"],
+              "anzsic_desc_ext": ["Seafood, Preserved, Manufacturing"],
+              "construction_class_ext": ["Fire Resistance"],
+              "country": ["Singapore"],
+              "interruption": ["66a30b6c-ec99-47af-9dac-74ad5d9e72f3"],
+              "locationNumber": ["3"],
+              "name_ext": ["Singapore"],
+              "protection_class_ext": ["Isolated and Remote"],
+              "stories": ["10"],
+              "survey_reported_ext": ["No"],
+              "yearBuilt": ["2014"]
+            },
+            "locator": "ece17667-4b87-43d6-bc26-abd9133fb423",
+            "mediaByLocator": {},
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "startTimestamp": "1655654400000",
+            "updatedTimestamp": "1655709571202"
+          }
+        ],
+        "createdTimestamp": "1655709403671",
+        "displayId": "100000580",
+        "locator": "1fa7d7d3-0702-4813-9c6e-dd4df277a7da",
+        "name": "location",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655709403671",
+                "exposureCharacteristicsLocator": "ece17667-4b87-43d6-bc26-abd9133fb423",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["9000000"], "type_ext": ["Business Interruption"] },
+                "locator": "7a7581db-c920-4f37-8372-33c1590a0254",
+                "mediaByLocator": {},
+                "perilLocator": "913f0f28-a968-48e3-a274-da4993244f31",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655709464222"
+              }
+            ],
+            "createdTimestamp": "1655709403671",
+            "displayId": "100000584",
+            "exposureLocator": "1fa7d7d3-0702-4813-9c6e-dd4df277a7da",
+            "locator": "913f0f28-a968-48e3-a274-da4993244f31",
+            "name": "grossRevenue",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "913f0f28-a968-48e3-a274-da4993244f31",
+            "updatedTimestamp": "1655709464222"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655709403671",
+                "exposureCharacteristicsLocator": "ece17667-4b87-43d6-bc26-abd9133fb423",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["22000000"], "type_ext": ["Property Damage"] },
+                "locator": "d9739c63-3f09-448f-960a-2350152475a9",
+                "mediaByLocator": {},
+                "perilLocator": "8d96f7a2-4b61-4705-9943-b21d97e00b88",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655709513311"
+              }
+            ],
+            "createdTimestamp": "1655709403671",
+            "displayId": "100000586",
+            "exposureLocator": "1fa7d7d3-0702-4813-9c6e-dd4df277a7da",
+            "locator": "8d96f7a2-4b61-4705-9943-b21d97e00b88",
+            "name": "buildings",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "8d96f7a2-4b61-4705-9943-b21d97e00b88",
+            "updatedTimestamp": "1655709513311"
+          }
+        ],
+        "policyLocator": "100000500",
+        "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+        "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+        "updatedTimestamp": "1655709571202"
+      },
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1655709621387",
+            "endTimestamp": "1687190400000",
+            "exposureLocator": "a91dcdb7-9c91-4f83-9b55-25b38c8a1a18",
+            "fieldGroupsByLocator": { "b4e11f4f-5b30-4832-90af-cb78dcc27f09": { "bi_indemnity_period_ext": ["10"], "bi_split_id_ext": ["Individual"] } },
+            "fieldValues": {
+              "anzsic_code_ext": ["254235"],
+              "anzsic_desc_ext": ["Paint or Varnish Remover, Prepared, Manufacturing "],
+              "construction_class_ext": ["Fire Resistance"],
+              "country": ["Singapore"],
+              "interruption": ["b4e11f4f-5b30-4832-90af-cb78dcc27f09"],
+              "locationNumber": ["3"],
+              "name_ext": ["Singapore"],
+              "protection_class_ext": ["Modern, fully equipped > 10 km"],
+              "stories": ["10"],
+              "survey_reported_ext": ["No"],
+              "yearBuilt": ["2014"]
+            },
+            "locator": "85ed7a66-2a97-4b55-baa7-4ddfaf7e8fb0",
+            "mediaByLocator": {},
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "startTimestamp": "1655654400000",
+            "updatedTimestamp": "1655709705979"
+          }
+        ],
+        "createdTimestamp": "1655709621387",
+        "displayId": "100000708",
+        "locator": "a91dcdb7-9c91-4f83-9b55-25b38c8a1a18",
+        "name": "location",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655709621387",
+                "exposureCharacteristicsLocator": "85ed7a66-2a97-4b55-baa7-4ddfaf7e8fb0",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["3000000"], "type_ext": ["Business Interruption"] },
+                "locator": "67022db7-3b8a-40a6-a689-615348cf458e",
+                "mediaByLocator": {},
+                "perilLocator": "52f1cc6f-89d3-442f-9a27-fedc6f905d9e",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655709751594"
+              }
+            ],
+            "createdTimestamp": "1655709621387",
+            "displayId": "100000712",
+            "exposureLocator": "a91dcdb7-9c91-4f83-9b55-25b38c8a1a18",
+            "locator": "52f1cc6f-89d3-442f-9a27-fedc6f905d9e",
+            "name": "grossRevenue",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "52f1cc6f-89d3-442f-9a27-fedc6f905d9e",
+            "updatedTimestamp": "1655709751594"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655709621387",
+                "exposureCharacteristicsLocator": "85ed7a66-2a97-4b55-baa7-4ddfaf7e8fb0",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["97000000"], "type_ext": ["Property Damage"] },
+                "locator": "378dee10-c1d1-45cf-a1b6-ab8d6225312b",
+                "mediaByLocator": {},
+                "perilLocator": "a305d9f1-342d-4dfe-9ffd-34bde3ac5874",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655709751594"
+              }
+            ],
+            "createdTimestamp": "1655709621387",
+            "displayId": "100000714",
+            "exposureLocator": "a91dcdb7-9c91-4f83-9b55-25b38c8a1a18",
+            "locator": "a305d9f1-342d-4dfe-9ffd-34bde3ac5874",
+            "name": "buildings",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "a305d9f1-342d-4dfe-9ffd-34bde3ac5874",
+            "updatedTimestamp": "1655709751594"
+          }
+        ],
+        "policyLocator": "100000500",
+        "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+        "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+        "updatedTimestamp": "1655709764813"
+      },
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1655709780601",
+            "endTimestamp": "1687190400000",
+            "exposureLocator": "0e49d26c-0693-44cc-8ccb-d2d6051f8df3",
+            "fieldGroupsByLocator": { "97ec425d-d193-45fb-b687-8ff5678bcec3": { "bi_indemnity_period_ext": ["5"], "bi_split_id_ext": ["Individual"] } },
+            "fieldValues": {
+              "anzsic_code_ext": ["224951"],
+              "anzsic_desc_ext": ["Clothing, Fur, Manufacturing"],
+              "construction_class_ext": ["Fire Resistance"],
+              "country": ["Singapore"],
+              "interruption": ["97ec425d-d193-45fb-b687-8ff5678bcec3"],
+              "locationNumber": ["5"],
+              "name_ext": ["Singapore"],
+              "protection_class_ext": ["Isolated and Remote"],
+              "stories": ["12"],
+              "survey_reported_ext": ["No"],
+              "yearBuilt": ["2002"]
+            },
+            "locator": "4571d3f1-e91e-45c4-aa1a-2c05f1eb07b0",
+            "mediaByLocator": {},
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "startTimestamp": "1655654400000",
+            "updatedTimestamp": "1655709929222"
+          }
+        ],
+        "createdTimestamp": "1655709780601",
+        "displayId": "100000642",
+        "locator": "0e49d26c-0693-44cc-8ccb-d2d6051f8df3",
+        "name": "location",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655709780601",
+                "exposureCharacteristicsLocator": "4571d3f1-e91e-45c4-aa1a-2c05f1eb07b0",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["29000000"], "type_ext": ["Business Interruption"] },
+                "locator": "879e2b56-97b0-40d2-a8a2-4b3272e83156",
+                "mediaByLocator": {},
+                "perilLocator": "fd473702-eba5-4759-83f3-9b0f1e1b48c5",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655709810291"
+              }
+            ],
+            "createdTimestamp": "1655709780601",
+            "displayId": "100000646",
+            "exposureLocator": "0e49d26c-0693-44cc-8ccb-d2d6051f8df3",
+            "locator": "fd473702-eba5-4759-83f3-9b0f1e1b48c5",
+            "name": "grossRevenue",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "fd473702-eba5-4759-83f3-9b0f1e1b48c5",
+            "updatedTimestamp": "1655709810291"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1687190400000",
+                "coverageStartTimestamp": "1655654400000",
+                "createdTimestamp": "1655709780601",
+                "exposureCharacteristicsLocator": "4571d3f1-e91e-45c4-aa1a-2c05f1eb07b0",
+                "fieldGroupsByLocator": {},
+                "fieldValues": { "sumInsured_ext": ["7000000"], "type_ext": ["Property Damage"] },
+                "locator": "031af4bc-d6d1-4673-ae05-45ad1036ac54",
+                "mediaByLocator": {},
+                "perilLocator": "60d5a382-9c43-47ff-bbef-d7a435e1bb13",
+                "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+                "policyLocator": "100000500",
+                "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+                "updatedTimestamp": "1655709843429"
+              }
+            ],
+            "createdTimestamp": "1655709780601",
+            "displayId": "100000648",
+            "exposureLocator": "0e49d26c-0693-44cc-8ccb-d2d6051f8df3",
+            "locator": "60d5a382-9c43-47ff-bbef-d7a435e1bb13",
+            "name": "buildings",
+            "policyLocator": "100000500",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+            "renewalGroup": "60d5a382-9c43-47ff-bbef-d7a435e1bb13",
+            "updatedTimestamp": "1655709843429"
+          }
+        ],
+        "policyLocator": "100000500",
+        "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+        "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+        "updatedTimestamp": "1655709929222"
+      }
+    ],
+    "fees": [],
+    "grossFees": "0.00",
+    "invoices": [],
+    "locator": "100000500",
+    "modifications": [
+      {
+        "configVersion": "51",
+        "createdTimestamp": "1655681341011",
+        "displayId": "100000504",
+        "effectiveTimestamp": "1655654400000",
+        "exposureModifications": [
+          {
+            "exposureLocator": "b5824d75-7e94-4705-9ce6-172e54916654",
+            "locator": "e485a3a5-98e7-4f26-8dbd-c396df2f7d18",
+            "newExposureCharacteristicsLocator": "eed69f8e-bc84-4bef-a74c-9dfa72838fd6",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "e485a3a5-98e7-4f26-8dbd-c396df2f7d18",
+                "locator": "0ed73ec5-9b4c-44ba-bec5-97926ab4386d",
+                "newPerilCharacteristicsLocator": "50ed5090-11ae-4836-bc8e-5a0323171b65",
+                "perilLocator": "938a79da-8844-4383-82fc-1cbc8d4478ad",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              },
+              {
+                "exposureModificationLocator": "e485a3a5-98e7-4f26-8dbd-c396df2f7d18",
+                "locator": "6ca799ad-4c44-4774-bf2b-4d63d27ec62c",
+                "newPerilCharacteristicsLocator": "a7f70740-fdae-447b-887b-2300398510fb",
+                "perilLocator": "2e69c83a-8922-4217-9f5c-7cfd3ea4f8d9",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              }
+            ],
+            "policyLocator": "100000500",
+            "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+          },
+          {
+            "exposureLocator": "dc8b9f9f-cc64-483b-95a9-cafe99164806",
+            "locator": "e8e2afaa-72af-4684-a8db-76bb852f93f2",
+            "newExposureCharacteristicsLocator": "1c9fe29e-5b31-4964-8501-581004cac403",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "e8e2afaa-72af-4684-a8db-76bb852f93f2",
+                "locator": "8cfa2ebe-be26-4295-a42c-4305e005635b",
+                "newPerilCharacteristicsLocator": "fafdc3d1-9e38-4535-95f9-e64033404da5",
+                "perilLocator": "a8760402-f30e-4fa6-ab95-e68d320a4d80",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              },
+              {
+                "exposureModificationLocator": "e8e2afaa-72af-4684-a8db-76bb852f93f2",
+                "locator": "8a033752-65c6-4756-acc3-42820edd2689",
+                "newPerilCharacteristicsLocator": "1c41b1a8-b211-4dcc-8970-f788ed0d6994",
+                "perilLocator": "06dd097f-3645-4822-9580-2052777717e4",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              }
+            ],
+            "policyLocator": "100000500",
+            "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+          },
+          {
+            "exposureLocator": "1fa7d7d3-0702-4813-9c6e-dd4df277a7da",
+            "locator": "8dc5396c-6ac6-400f-abba-7cab9bf10c93",
+            "newExposureCharacteristicsLocator": "ece17667-4b87-43d6-bc26-abd9133fb423",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "8dc5396c-6ac6-400f-abba-7cab9bf10c93",
+                "locator": "013639f9-ff51-42da-92f9-d1d6a2957472",
+                "newPerilCharacteristicsLocator": "7a7581db-c920-4f37-8372-33c1590a0254",
+                "perilLocator": "913f0f28-a968-48e3-a274-da4993244f31",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              },
+              {
+                "exposureModificationLocator": "8dc5396c-6ac6-400f-abba-7cab9bf10c93",
+                "locator": "bc8df73a-efe4-4d15-9fe0-f3777a07494d",
+                "newPerilCharacteristicsLocator": "d9739c63-3f09-448f-960a-2350152475a9",
+                "perilLocator": "8d96f7a2-4b61-4705-9943-b21d97e00b88",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              }
+            ],
+            "policyLocator": "100000500",
+            "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+          },
+          {
+            "exposureLocator": "a91dcdb7-9c91-4f83-9b55-25b38c8a1a18",
+            "locator": "87f3e2c1-2a70-4ef0-a57b-de356f7b4d38",
+            "newExposureCharacteristicsLocator": "85ed7a66-2a97-4b55-baa7-4ddfaf7e8fb0",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "87f3e2c1-2a70-4ef0-a57b-de356f7b4d38",
+                "locator": "d2aea2bd-65b1-4228-b6bd-2d7c5486f85e",
+                "newPerilCharacteristicsLocator": "67022db7-3b8a-40a6-a689-615348cf458e",
+                "perilLocator": "52f1cc6f-89d3-442f-9a27-fedc6f905d9e",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              },
+              {
+                "exposureModificationLocator": "87f3e2c1-2a70-4ef0-a57b-de356f7b4d38",
+                "locator": "b3bc6c7b-1ab4-45e1-9c02-b6aacef70964",
+                "newPerilCharacteristicsLocator": "378dee10-c1d1-45cf-a1b6-ab8d6225312b",
+                "perilLocator": "a305d9f1-342d-4dfe-9ffd-34bde3ac5874",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              }
+            ],
+            "policyLocator": "100000500",
+            "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+          },
+          {
+            "exposureLocator": "0e49d26c-0693-44cc-8ccb-d2d6051f8df3",
+            "locator": "71344a49-d262-46fe-beee-919db469a74e",
+            "newExposureCharacteristicsLocator": "4571d3f1-e91e-45c4-aa1a-2c05f1eb07b0",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "71344a49-d262-46fe-beee-919db469a74e",
+                "locator": "e3d25f8b-367b-4a01-97a1-e80c6783f2d8",
+                "newPerilCharacteristicsLocator": "879e2b56-97b0-40d2-a8a2-4b3272e83156",
+                "perilLocator": "fd473702-eba5-4759-83f3-9b0f1e1b48c5",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              },
+              {
+                "exposureModificationLocator": "71344a49-d262-46fe-beee-919db469a74e",
+                "locator": "9941938c-bf01-4b6b-b6d8-1e75c7c430d7",
+                "newPerilCharacteristicsLocator": "031af4bc-d6d1-4673-ae05-45ad1036ac54",
+                "perilLocator": "60d5a382-9c43-47ff-bbef-d7a435e1bb13",
+                "policyLocator": "100000500",
+                "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+                "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+              }
+            ],
+            "policyLocator": "100000500",
+            "policyModificationLocator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+            "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+            "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1"
+          }
+        ],
+        "fieldGroupsByLocator": {},
+        "fieldValues": {},
+        "locator": "d8fd0ffd-0923-451f-bea0-24f11bb06735",
+        "mediaByLocator": {},
+        "name": "modification.policy.create",
+        "newPolicyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7",
+        "newPolicyCharacteristicsLocators": ["759cbce5-15da-4a0e-954f-6b1281ccbcc7"],
+        "number": "0",
+        "policyLocator": "100000500",
+        "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+        "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+        "updatedTimestamp": "1655709929222"
+      }
+    ],
+    "originalContractEndTimestamp": "1687190400000",
+    "originalContractStartTimestamp": "1655654400000",
+    "policyholderLocator": "0eee77b6-cfa4-4a3a-a3f6-f0831ff45ed1",
+    "productLocator": "a55d236d-5a3f-4397-afc9-83a2025e53f1",
+    "productName": "Commercial Property",
+    "quoteSummary": { "notDiscarded": [{ "locator": "100000506", "name": "1", "state": "draft" }], "selected": "100000506" },
+    "updatedTimestamp": "1655709929222"
+  },
+  "policyExposurePerils": [
+    {
+      "exposureCharacteristicsLocator": "eed69f8e-bc84-4bef-a74c-9dfa72838fd6",
+      "perilCharacteristicsLocator": "50ed5090-11ae-4836-bc8e-5a0323171b65",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "eed69f8e-bc84-4bef-a74c-9dfa72838fd6",
+      "perilCharacteristicsLocator": "a7f70740-fdae-447b-887b-2300398510fb",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "1c9fe29e-5b31-4964-8501-581004cac403",
+      "perilCharacteristicsLocator": "fafdc3d1-9e38-4535-95f9-e64033404da5",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "1c9fe29e-5b31-4964-8501-581004cac403",
+      "perilCharacteristicsLocator": "1c41b1a8-b211-4dcc-8970-f788ed0d6994",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "ece17667-4b87-43d6-bc26-abd9133fb423",
+      "perilCharacteristicsLocator": "7a7581db-c920-4f37-8372-33c1590a0254",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "ece17667-4b87-43d6-bc26-abd9133fb423",
+      "perilCharacteristicsLocator": "d9739c63-3f09-448f-960a-2350152475a9",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "85ed7a66-2a97-4b55-baa7-4ddfaf7e8fb0",
+      "perilCharacteristicsLocator": "67022db7-3b8a-40a6-a689-615348cf458e",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "85ed7a66-2a97-4b55-baa7-4ddfaf7e8fb0",
+      "perilCharacteristicsLocator": "378dee10-c1d1-45cf-a1b6-ab8d6225312b",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "4571d3f1-e91e-45c4-aa1a-2c05f1eb07b0",
+      "perilCharacteristicsLocator": "879e2b56-97b0-40d2-a8a2-4b3272e83156",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    },
+    {
+      "exposureCharacteristicsLocator": "4571d3f1-e91e-45c4-aa1a-2c05f1eb07b0",
+      "perilCharacteristicsLocator": "031af4bc-d6d1-4673-ae05-45ad1036ac54",
+      "policyCharacteristicsLocator": "759cbce5-15da-4a0e-954f-6b1281ccbcc7"
+    }
+  ],
+  "quoteLocator": "100000506",
+  "tenantTimeZone": "Asia/Singapore"
+}

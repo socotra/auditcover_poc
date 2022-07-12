@@ -1,0 +1,65 @@
+{
+  "plugins": {
+    "getUnderwritingResult": {
+      "path": "audit_cover/underwriter.js",
+      "enabled": true
+    },
+    "getPerilRates": {
+      "path": "audit_cover/rater.js",
+      "enabled": true
+    }
+  },
+  "fields": [
+    {
+      "name": "channel",
+      "title": "Sales Channel",
+      "type": "select",
+      "newline": true,
+      "width": 6,
+      "optional": false,
+      "values": ["Direct", "Referred"]
+    },
+    {
+      "name": "referer_name",
+      "title": "Referer Name",
+      "type": "string",
+      "width": 6,
+      "optional": false,
+      "condition": {
+        "channel": ["Referred"]
+      }
+    }
+  ],
+
+  "documents": [
+    {
+      "displayName": "Broker Document",
+      "fileName": "broker.pdf",
+      "templateName": "broker.template.liquid"
+    },
+    {
+      "displayName": "Company Document",
+      "fileName": "company.pdf",
+      "templateName": "company.template.liquid"
+    },
+    {
+      "displayName": "Lienholder Document",
+      "fileName": "lienholder.pdf",
+      "templateName": "lienholder.template.liquid"
+    }
+  ],
+  "invoicing": {
+    "generatingEvent": "accept"
+  },
+  "defaultPaymentTerms": {
+    "amount": 0,
+    "unit": "day"
+  },
+  "paymentSchedules": [
+    {
+      "type": "total",
+      "name": "upfront",
+      "displayName": "Up Front"
+    }
+  ]
+}

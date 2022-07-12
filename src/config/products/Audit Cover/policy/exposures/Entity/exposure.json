@@ -1,0 +1,70 @@
+{
+  "name": "entity",
+  "displayName": "Entity",
+  "fields": [
+    {
+      "heading": "Name of Entity",
+      "title": "Entity Name",
+      "name": "_description",
+      "type": "string",
+      "optional": true,
+      "newline": true,
+      "width": 12
+    },
+    {
+      "name": "entity_type",
+      "title": "Entity type",
+      "type": "select",
+      "width": 3,
+      "values": ["Individual", "Individual plus Spouse", "Sole Trader", "Private Company", "Partnership"]
+    },
+    {
+      "name": "is_primary_entity",
+      "title": "Primary entity?",
+      "type": "select",
+      "values": ["Yes", "No"]
+    },
+    {
+      "newline": true,
+      "name": "industry",
+      "title": "Entity Industry",
+      "type": "lookup",
+      "table": "industries_table"
+    },
+    {
+      "newline": true,
+      "name": "turnover",
+      "title": "Entity Turnover in prior year",
+      "width": 3,
+      "type": "number",
+      "decimalPlaces": 0
+    },
+    {
+      "name": "sum_insured",
+      "title": "Sum Insured",
+      "width": 3,
+      "type": "number",
+      "decimalPlaces": 0
+    },
+    {
+      "name": "address",
+      "title": "Address",
+      "optional": true,
+      "type": "group",
+      "fields": [
+        {
+          "name": "house",
+          "title": "House number",
+          "type": "string"
+        },
+        {
+          "name": "state",
+          "title": "State",
+          "width": 3,
+          "type": "select",
+          "values": ["NSW", "VIC", "QLD"]
+        }
+      ]
+    }
+  ]
+}

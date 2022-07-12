@@ -1,0 +1,8 @@
+{% assign policy_char = data.policy.characteristics[0] %}
+
+{% unless data.renewal %}
+  {{ policy_char.gross_premium | times: 0.03 | add_fee: "referral", "3% Transaction fee" }}
+  {{ 10 | add_fee: "admin", "admin fee" }}
+{% else %}
+  {{ 10 | add_fee: "admin", "$10 admin fee" }}
+{% endunless %}

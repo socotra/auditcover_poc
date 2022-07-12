@@ -1,0 +1,8 @@
+{
+  "timezone": "Australia/Sydney",
+  "currency": "AUD",
+  "improvedRating": true,
+  "features": {
+		"property.multicurrency.enabled": true
+	}
+}

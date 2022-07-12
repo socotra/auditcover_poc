@@ -1,0 +1,12 @@
+{
+  "fees": [
+    {
+      "name": "referral",
+      "displayName": "referral Fee"
+    },
+    {
+      "name": "admin",
+      "displayName": "Admin Fee"
+    }
+  ]
+}

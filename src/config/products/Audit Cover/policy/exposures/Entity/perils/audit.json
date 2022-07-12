@@ -1,0 +1,12 @@
+{
+  "name": "audit",
+  "displayName": "Tax audit",
+  "fields": [
+    {
+      "name": "type_ext",
+      "title": "Type",
+      "type": "select",
+      "values": ["General", "Investigation"]
+    }
+  ]
+}

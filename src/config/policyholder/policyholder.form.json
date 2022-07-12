@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "sections": [
+        {
+          "title": "Policyholder",
+          "fields": [
+            {
+              "name": "name",
+              "prompt": "Name",
+              "required": true,
+              "updateable": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

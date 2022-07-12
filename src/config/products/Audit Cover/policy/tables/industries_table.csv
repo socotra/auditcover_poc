@@ -1,0 +1,8 @@
+industry,anzic_code,refer_code
+"Plumbing Services",3231,Accept
+"Electrical Services",3232,Accept
+"Air Conditioning and Heating Services",3233,Accept
+"Fire and Security Alarm Installation Services",3234,Accept
+"Other Building Installation Services",3239,Accept
+Defence,7600,Deny
+"Police Services",7711,Deny

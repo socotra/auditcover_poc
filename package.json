@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "cp -rf src/config dist && esbuild --bundle  --target=chrome60 --format=cjs --platform=node --tree-shaking=true --entry-names=[dir]/[name] --outbase=src/scripts --outdir=dist/scripts src/scripts/*/*.js",
+    "deploy:push": "socotra-deploy folder dist auditcover -c sandbox --overwrite",
+    "deploy": "pnpm clean && pnpm build && pnpm deploy:push",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "luxon": "^2.4.0",
+    "pnpm": "^7.1.9"
+  },
+  "devDependencies": {
+    "convert-csv-to-json": "^1.3.3",
+    "esbuild": "^0.14.39",
+    "fs": "0.0.1-security",
+    "jest": "^28.1.1",
+    "rimraf": "^3.0.2"
+  }
+}
