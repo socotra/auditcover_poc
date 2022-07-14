@@ -43,8 +43,8 @@
       "templateName": "company.template.liquid"
     },
     {
-      "displayName": "Lienholder Document",
-      "fileName": "lienholder.pdf",
+      "displayName": "Invoice",
+      "fileName": "Invoice.pdf",
       "templateName": "lienholder.template.liquid"
     }
   ],

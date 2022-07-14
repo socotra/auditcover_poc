@@ -9,7 +9,7 @@ function getPerilRates(data) {
    * Loop through each location to calculate PD and BI premiums.
    */
   policy.exposures
-    .filter((e) => e.name === "location")
+    .filter((e) => e.name === "Entity")
     .forEach((exposure) => {
       const exposureCh = getExposureCharacteristics(exposure, policyExposurePerils);
 
@@ -18,7 +18,7 @@ function getPerilRates(data) {
        */
       const pdRate = parseFloat(policy.characteristics[0].fieldValues.pdProposedRenewalRate[0]);
       exposure.perils
-        .filter((p) => p.characteristics[0].fieldValues.type_ext?.[0] === PD)
+        .filter((p) => p.characteristics[0].fieldValues.type_ext?.[0] === "Property Damage")
         .forEach((peril) => {
           const perilCh = getPerilCharacteristics(peril, policyExposurePerils);
           const sumInsured = parseFloat(perilCh.fieldValues.sumInsured_ext[0]);
@@ -58,7 +58,7 @@ function getPerilRates(data) {
     .reduce((p, v) => p + v, 0)
     .toFixed(2);
 
-  const fxRateString = socotraApi.tableLookup(0, "fx_rates", policyCurrency);
+  const fxRateString = socotraApi.tableLookup(0, "fx_rates", anzicCode);
   const fxRate = parseFloat(fxRateString);
 
   const grossPremiumUSD = grossPremium / fxRate;

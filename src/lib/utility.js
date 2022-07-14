@@ -12,3 +12,4 @@ function getPerilCharacteristics(peril, policyExposurePerils) {
 
 exports.getExposureCharacteristics = getExposureCharacteristics;
 exports.getPerilCharacteristics = getPerilCharacteristics;
+

@@ -37,7 +37,7 @@
       "title": "Entity Turnover in prior year",
       "width": 3,
       "type": "number",
-      "decimalPlaces": 0
+      "decimalPlaces": 2
     },
     {
       "name": "sum_insured",

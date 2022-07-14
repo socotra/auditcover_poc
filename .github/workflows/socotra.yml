@@ -1,0 +1,42 @@
+name: Socotra Deployment
+
+on:
+  push:
+    paths:
+      - "socotra/**"
+    branches: [main]
+  pull_request:
+    paths:
+      - "socotra/**"
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  SOCOTRA_API: https://api.sandbox.socotra.com
+  SOCOTRA_TENANT: auditcover-poc
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: socotra
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run deploy-ci --if-present
+        env:
+          SOCOTRA_API: ${{ env.SOCOTRA_API }}
+          SOCOTRA_USERNAME: ${{ secrets.SOCOTRA_USERNAME }}
+          SOCOTRA_PASSWORD: ${{ secrets.SOCOTRA_PASSWORD }}
+          SOCOTRA_TENANT: ${{ env.SOCOTRA_TENANT }}
