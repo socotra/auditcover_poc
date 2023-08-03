@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "luxon": "^2.4.0",
+    "luxon": "^2.5.2",
     "pnpm": "^7.1.9"
   },
   "devDependencies": {
